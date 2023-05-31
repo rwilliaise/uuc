@@ -18,6 +18,6 @@ FetchContent_Declare(
 
 FetchContent_MakeAvailable(glfw)
 
-add_executable(uuc_executable main.c)
+add_executable(uuc_executable main.c window.c loop.c)
 target_link_libraries(uuc_executable glfw)
 
